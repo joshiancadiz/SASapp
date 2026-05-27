@@ -8,6 +8,7 @@
 
 Smart Aquatic Steward is an IoT-based fish tank management system that automates water monitoring, water changes, and feeding schedules. It combines hardware sensors, an ESP32 microcontroller, and a React Native mobile application to give fish keepers real-time visibility and control over their aquatic environment.
 
+
 ---
 
 ## 📋 Table of Contents
@@ -251,4 +252,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 
-> Built by [Joshua Ian Cadiz](https://github.com/your-username) — Front-End Software Engineer
+> Built by [Joshua Ian Cadiz](https://github.com/joshiancadiz) — Front-End Software Engineer
