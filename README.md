@@ -8,6 +8,11 @@
 
 Smart Aquatic Steward is an IoT-based fish tank management system that automates water monitoring, water changes, and feeding schedules. It combines hardware sensors, an ESP32 microcontroller, and a React Native mobile application to give fish keepers real-time visibility and control over their aquatic environment.
 
+<p align="center">
+  <img src="assets/img1.jpg" alt="Hardware Setup — Front View" width="280" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="assets/img2.png" alt="Mobile App Controlling the Fish Tank" width="180" />
+</p>
 
 ---
 
@@ -56,7 +61,23 @@ Fish keeping presents several recurring challenges that this system aims to solv
 - **Automated feeding** — Set feeding schedules that the system executes reliably regardless of owner availability.
 - **SMS notifications** — Receive instant SMS alerts via iProgSMS when water parameters fall outside safe ranges.
 - **Historical tracking** — View trends and logs of water quality data over time.
-- **Cross-platform mobile app** — Works on both Android and iOS via React Native.
+- **Android mobile app** — Built with React Native for Android devices.
+
+### 📸 App Screenshots
+
+<p align="center">
+  <img src="assets/sasapp.png" alt="Smart Aquatic Steward — All Screens" width="100%" />
+</p>
+
+The application consists of five main screens, each accessible via the bottom navigation bar:
+
+| Screen | Description |
+|---|---|
+| **Parameter Monitoring** | The home dashboard displaying real-time sensor readings — water temperature (°C), pH level, and turbidity status. Each parameter is presented with a clear icon and color-coded value for quick assessment of tank health. |
+| **Alert Logs** | A chronological log of all triggered alerts. Users can filter by parameter type (Water Temp, pH Level, Turbidity) and date. Each entry shows the timestamp and the exact out-of-range reading that triggered the alert. |
+| **Fish Feeder** | Manages automated feeding schedules. Displays all scheduled feeding times in a scrollable list with delete options. Users can add new schedules using the "+" button or manually trigger a feeding session. |
+| **Water Changer** | Controls the automated water change system. Provides both automated scheduling (configurable interval and time) and manual controls with "Refill ON" and "Drain ON" buttons for on-demand water changes. |
+| **Parameter Settings** | Allows users to configure safe parameter ranges for temperature and pH. Includes preset profiles for common fish types (Default, Tropical Community Fish, Goldfish, African Cichlids) for quick configuration. |
 
 ---
 
